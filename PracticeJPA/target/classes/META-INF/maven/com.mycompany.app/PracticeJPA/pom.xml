@@ -97,7 +97,11 @@
 			<artifactId>ehcache</artifactId>
 			<version>2.7.2</version>
 		</dependency>
-		
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>4.0.1.Final</version>
+		</dependency>
 
 	</dependencies>
 </project>

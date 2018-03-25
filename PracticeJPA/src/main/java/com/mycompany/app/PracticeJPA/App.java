@@ -26,9 +26,9 @@ public class App {
 		System.out.println("Hello World!");
 		ApplicationContext context = new ClassPathXmlApplicationContext("SpringBeans.xml");
 		ClassRoom classroom = new ClassRoom();
-		classroom.setBuilding(186);
-		classroom.setFloor(5);
-		classroom.setNumber(306);
+		classroom.setBuilding(102);
+		classroom.setFloor(6);
+		classroom.setNumber(308);
 		classroom.setNameOfClassRoom(ClassRoomName.LECTION);
 		
 		ClassRoomWorker classworker = (ClassRoomWorker)context.getBean("classworker");
@@ -59,7 +59,7 @@ public class App {
 
 		
 		Student student = new Student();
-		student.setStudent_ticket_num(90302829);
+		student.setStudent_ticket_num(90337829);
 		student.setFirstName("Kolya");
 		student.setLastName("Vasylenko");
 		student.setSpeciality("Applied Physic");
